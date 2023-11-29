@@ -16,10 +16,10 @@
   <!-- ===============================================-->
   <!--    Favicons-->
   <!-- ===============================================-->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico"> -->
   <link rel="manifest" href="assets/img/favicons/manifest.json">
   <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
   <meta name="theme-color" content="#ffffff">
@@ -84,29 +84,40 @@
               <div class="nav-item-wrapper">
                 <div class="parent-wrapper label-1">
                   <ul class="nav collapse parent show" data-bs-parent="#navbarVerticalCollapse" id="nv-home">
-                    <li class="collapsed-nav-item-title d-none">Sheduling
-                    </li>
-                    <li class="nav-item"><a class="nav-link active" href="index.html" data-bs-toggle=""
+                    <li class="nav-item"><a class="nav-link " href="dashboard.html" data-bs-toggle=""
                         aria-expanded="false">
-                        <div class="d-flex align-items-center"><span class="nav-link-icon"><svg
-                          xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24"
-                          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                          stroke-linejoin="round" class="feather feather-pie-chart">
-                          <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
-                          <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
-                        </svg></span><span class="nav-link-text px-0">Sheduling </span>
-                        </div>
-                      </a>
-
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="sheduling-list.html" data-bs-toggle="" aria-expanded="false">
                         <div class="d-flex align-items-center"><span class="nav-link-icon"><svg
                               xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24"
                               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                               stroke-linejoin="round" class="feather feather-pie-chart">
                               <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
                               <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
-                            </svg></span><span class="nav-link-text px-0">Sheduling List</span>
+                            </svg></span><span class="nav-link-text px-0">Dashboard </span>
+                        </div>
+                      </a>
+
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html" data-bs-toggle="" aria-expanded="false">
+                        <div class="d-flex align-items-center"><span class="nav-link-icon"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24"
+                              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" class="feather feather-pie-chart">
+                              <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                              <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+                            </svg></span><span class="nav-link-text px-0">scheduling </span>
+                        </div>
+                      </a>
+
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="sheduling-list.html" data-bs-toggle=""
+                        aria-expanded="false">
+                        <div class="d-flex align-items-center"><span class="nav-link-icon"><svg
+                              xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24"
+                              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" class="feather feather-pie-chart">
+                              <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                              <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+                            </svg></span><span class="nav-link-text px-0">scheduling List</span>
                         </div>
                       </a>
 
@@ -1756,7 +1767,7 @@
                 class="toggle-line"></span></span></button>
           <a class="navbar-brand me-1 me-sm-3" href="index.html">
             <div class="d-flex align-items-center">
-              <div class="d-flex align-items-center"><img src="assets/img/icons/logo.png" alt="phoenix" width="27" />
+              <div class="d-flex align-items-center">
                 <p class="logo-text ms-2 d-none d-sm-block">BrookField</p>
               </div>
             </div>
@@ -2128,12 +2139,12 @@
     </nav>
     <div class="content">
       <div class="pb-5">
-        <div class="row gy-3 mb-6 justify-content-between">
+        <div class="row gy-3 mb-6 justify-content-between ">
           <div class="col-md-6 col-auto">
-            <h2 class="mb-2 text-1100">Sheduling </h2>
+            <h2 class="mb-2 text-1100">scheduling </h2>
             <h5 class="text-700 fw-semi-bold">Here’s what’s going on at your business right now</h5>
           </div>
-          <div class="col-md-6">
+          <!-- <div class="col-md-6">
             <div class="row gy-3 justify-content-between">
               <div class="mb-3 col-md-6">
 
@@ -2148,10 +2159,79 @@
                 <input class="form-control" type="file">
               </div>
             </div>
+          </div> -->
+        </div>
+        <div class="mx-n4 px-4 mx-lg-n6 px-lg-6 pt-7 pb-7 bg-white border-y border-300">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="d-flex justify-content-between">
+                <div class="form-check">
+                  <input class="form-check-input" id="flexRadioDefault1" type="radio" name="flexRadioDefault" />
+
+                  <label class="form-check-label" for="flexRadioDefault1">Day</label>
+                </div>
+                <div class="form-check">
+
+                  <input class="form-check-input" id="flexRadioDefault2" type="radio" name="flexRadioDefault"
+                    checked="" />
+
+                  <label class="form-check-label" for="flexRadioDefault2">Week</label>
+                </div>
+                <div class="form-check">
+
+                  <input class="form-check-input" id="flexRadioDefault2" type="radio" name="flexRadioDefault"
+                    checked="" />
+
+                  <label class="form-check-label" for="flexRadioDefault2">Month</label>
+                </div>
+              </div>
+              <div class="d-flex mt-5">
+                <div class="from-date" style="width: 20%; margin-right: 20px;">
+                  <label for="from">From</label>
+                  <input class="form-control" type="date" name="" id="" placeholder="from">
+                </div>
+                <div class="from-to" style="width: 20%; margin-right: 20px;">
+                  <label for="from">To</label>
+                  <input class="form-control" type="date" name="" id="" placeholder="To">
+                </div>
+                <div class="timeslot" style="width: 20%; margin-right: 20px;">
+                  <label for="timeslot">TimeSlot</label>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected="">15 min</option>
+                    <option value="1">30 min</option>
+                    <option value="2">45 min</option>
+                    <option value="3">1 hour</option>
+                  </select>
+                </div>
+                <div class="form-check" style="padding: 28px 20px;">
+
+                  <input class="form-check-input" id="bulk" type="radio" name="upload" />
+
+                  <label class="form-check-label" for="bulk">Bulk Upload</label>
+                </div>
+                <div class="form-check" style="padding: 28px 20px;">
+
+                  <input class="form-check-input" id="single" type="radio" name="upload" />
+
+                  <label class="form-check-label" for="single">single Upload</label>
+                </div>
+              </div>
+              <div class="row gy-3 justify-content-between">
+                <div class="mb-3 col-md-6" id="bulk-upload" style="display: none;">
+
+                  <label class="form-label">Bluk Upload</label>
+
+                  <input class="form-control" type="file" multiple>
+                </div>
+
+              </div>
+            </div>
+
           </div>
         </div>
-
-        <div class="mx-n4 px-4 mx-lg-n6 px-lg-6 pt-7 pb-7 bg-white border-y border-300">
+        
+        <div class="mx-n4 px-4 mx-lg-n6 px-lg-6 pt-7 pb-7 bg-white border-y border-300" id="single-upload"
+          style="display: none;">
           <table class="table pt-7 pb-3 ">
             <h2 class="mb-2 text-1100">Book TimeSlot From 9-12 </h2>
             <h5 class="text-700 fw-semi-bold mb-4">Here’s what’s going on at your business right now</h5>
@@ -2191,12 +2271,12 @@
             </tbody>
           </table>
         </div>
+       
         <footer class="footer position-absolute">
           <div class="row g-0 justify-content-between align-items-center h-100">
             <div class="col-12 col-sm-auto text-center">
-              <p class="mb-0 mt-2 mt-sm-0 text-900">Thank you for creating with Phoenix<span
-                  class="d-none d-sm-inline-block"></span><span class="d-none d-sm-inline-block mx-1">|</span><br
-                  class="d-sm-none" />2023 &copy;<a class="mx-1" href="">Vishleshan</a></p>
+              <p class="mb-0 mt-2 mt-sm-0 text-900"><br class="d-sm-none">2023 ©<a class="mx-1" href="">Vishleshan</a>
+              </p>
             </div>
             <div class="col-12 col-sm-auto text-center">
               <p class="mb-0 text-600">v1.13.0</p>
@@ -2218,6 +2298,28 @@
           navbarVertical.classList.add('navbar-darker');
         }
       </script>
+       <script>
+        // Get the radio buttons and the upload divs
+        var bulkRadio = document.getElementById('bulk');
+        var bulkUploadDiv = document.getElementById('bulk-upload');
+        var singleRadio = document.getElementById('single');
+        var singleUploadDiv = document.getElementById('single-upload');
+    
+        // Add an event listener to the bulk radio button
+        bulkRadio.addEventListener('change', function () {
+            // If bulk radio button is checked, show the bulk-upload div and hide the single-upload div
+            bulkUploadDiv.style.display = bulkRadio.checked ? 'block' : 'none';
+            singleUploadDiv.style.display = bulkRadio.checked ? 'none' : '';
+        });
+    
+        // Add an event listener to the single radio button
+        singleRadio.addEventListener('change', function () {
+            // If single radio button is checked, show the single-upload div and hide the bulk-upload div
+            singleUploadDiv.style.display = singleRadio.checked ? 'block' : 'none';
+            bulkUploadDiv.style.display = singleRadio.checked ? 'none' : '';
+        });
+    </script>
+    
   </main>
   <!-- ===============================================-->
   <!--    End of Main Content-->
